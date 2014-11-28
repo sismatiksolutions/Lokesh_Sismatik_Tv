@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_btns_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/lib"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_apps"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/allapps"
+        android:nextFocusRight="@+id/music"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+        />
+<!--      android:onClick="Main_MyFiles_click"
+ --><!--         android:layout_width="wrap_content"
+        android:layout_margin="5dp" -->
+    <Button
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_movies"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/lib"
+        android:nextFocusRight="@+id/movie"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+        />
+<!--      android:onClick="Main_Music_click"
+ -->
+    <Button
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_tvshows"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/music"
+        android:nextFocusRight="@+id/communication"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+        />
+<!-- android:onClick="Main_Movie_click" 
+ -->    <Button
+        android:id="@+id/communication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_xbmc"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/movie"
+        android:nextFocusRight="@+id/games"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+        />
+<!--  android:onClick="Main_Communication_click"
+ -->    <Button
+        android:id="@+id/games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_wirelesshub"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/communication"
+        android:nextFocusRight="@+id/shopping"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+         />
+<!-- android:onClick="Main_Games_click"
+ -->    <Button
+        android:id="@+id/shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_setup"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/games"
+         android:nextFocusRight="@+id/allapps"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+        />
+ <!-- android:onClick="Main_Shopping_click" 
+    <Button
+        android:id="@+id/partner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/buttonpartner"
+        android:nextFocusDown="@+id/home"
+        android:nextFocusLeft="@+id/shopping"
+        android:nextFocusRight="@+id/allapps"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+         />
+         -->
+<!-- android:onClick="Main_Partner_click" -->
+    <Button
+        android:id="@+id/allapps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/home_filemanager"
+        android:nextFocusDown="@+id/home"
+       android:nextFocusLeft="@+id/shopping"
+        android:nextFocusRight="@+id/lib"
+        android:nextFocusUp="@+id/prom_apps_gridview"
+       />
+<!--      android:onClick="Main_AllApps_click" 
+ -->
+</LinearLayout>

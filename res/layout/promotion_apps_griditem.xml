@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/promo_app_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/promo_app_sublayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_promotion_apps_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/promo_app_img"
+            android:layout_width="144dp"
+            android:layout_height="92dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/img_pr_apps_abirds"
+            android:contentDescription="@string/appimg"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/promo_app_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/fav_text_color"
+        android:textStyle="bold" />
+
+</RelativeLayout>

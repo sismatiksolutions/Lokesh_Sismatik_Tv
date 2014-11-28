@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/movietitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+       
+        android:text=" "
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            />
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   
+        android:orientation="vertical" >
+        
+            
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   android:layout_marginTop="45dp"
+        android:orientation="horizontal" >
+        
+         <TextView
+        android:id="@+id/moviename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+   
+       android:layout_marginLeft="15dp"
+        android:text="Movie Name : "
+        android:textSize="25sp" />
+         
+         
+         <TextView
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="25sp" />
+         </LinearLayout>
+         
+            
+            
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+        
+         <TextView
+        android:id="@+id/moviename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+   
+       android:layout_marginLeft="15dp"
+        android:text="Movie Type : "
+        android:textSize="26sp" />
+         
+         
+         <TextView
+        android:id="@+id/movietype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+       
+       android:layout_marginLeft="15dp"
+        android:text="  "
+        android:textSize="26sp" />
+         </LinearLayout>
+         
+             <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" >
+         
+                  <Button
+        android:id="@+id/install"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/buttonselector"
+        android:text="Install"
+       
+        android:textSize="25sp" />
+                  
+                  </LinearLayout>
+         
+         </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

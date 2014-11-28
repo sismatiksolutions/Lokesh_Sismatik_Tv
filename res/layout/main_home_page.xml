@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_page_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:layout_marginTop="60dp"
+    android:weightSum="2" >
+
+    <RelativeLayout
+        android:id="@+id/prom_apps_grid_and_adv_layout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1" 
+       
+        >
+
+        <fragment
+            android:id="@+id/promotionAppsGridviewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="40dp"
+            class="com.ovionmedia.wizbox.launcher.LocalVideoFragment"
+             >
+        </fragment>
+
+        <RelativeLayout
+            android:id="@+id/adv_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" >
+
+            <fragment
+                android:id="@+id/advLayoutFragment"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="40dp"
+                class="com.ovionmedia.wizbox.launcher.AdvImgLayoutFragment" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/prom_video_layout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="0dp"
+         >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+             >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                  >
+ <!-- android:background="@drawable/img_promotion_video_bg" -->
+
+                <fragment
+                    android:id="@+id/promotionVideoFragment"
+                    android:layout_width="450dp"
+                    android:layout_height="300dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    class="com.ovionmedia.wizbox.launcher.LocalImageFragment" />
+
+            </RelativeLayout>
+
+          <!--  <TextView
+                android:id="@+id/prom_video_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="@string/yes_vod"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color"
+                android:textStyle="bold" />
+                
+                 --> 
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="library_icon_main_width">70dip</dimen>
+    <dimen name="library_icon_main_height">66dip</dimen>
+    <dimen name="library_icon_image_top_padding">3dip</dimen>
+    <dimen name="library_icon_image_width">70dip</dimen>
+    <dimen name="library_icon_image_height">46.5dip</dimen>
+    <dimen name="library_icon_imagecontainer_height">50dip</dimen>
+    <dimen name="library_icon_text_font_size">10dip</dimen>
+    <dimen name="library_icon_delete_icon_width">15dip</dimen>
+    <dimen name="library_icon_delete_icon_height">15dip</dimen>
+</resources>

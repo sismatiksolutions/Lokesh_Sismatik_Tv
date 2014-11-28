@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/img_desktop_bg3" >
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginRight="70dp"
+    android:layout_marginBottom="70dp"
+    android:weightSum="1"
+    android:background="@color/app_bg_new" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight=".10"
+        android:orientation="horizontal" 
+        android:background="@drawable/black_back2">
+
+        <TextView
+            android:id="@+id/textcategory"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="TV Category"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="26sp" 
+            android:paddingRight="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+        
+         <View 
+         android:layout_width="1dp"
+         android:layout_height="match_parent"
+         android:background="#62686f" />
+
+         <TextView
+             android:id="@+id/tvshowcategory"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Entertainment"
+             android:layout_marginLeft="20dp"
+             android:layout_gravity="center_vertical"
+             android:textSize="26sp" 
+             android:textColor="#ffffff"
+             android:textStyle="bold"/>
+
+    </LinearLayout>
+        
+    <LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight=".90">
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+         >
+    </ListView>
+    <View 
+         android:layout_width="1dp"
+         android:layout_height="match_parent"
+         android:background="#62686f" />
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="20dp"
+        android:horizontalSpacing="20dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="5" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+    />
+</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ovionmedia.wizbox.launcher"
+    android:versionCode="8"
+    android:versionName="8.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+      <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+    
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.ovionmedia.wizbox.launcher.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ovionmedia.wizbox.launcher.SetupWizardWelcomeActivity"
+              android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+         <activity
+            android:name="com.ovionmedia.wizbox.launcher.Login"
+              android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+        </activity>
+            <activity android:name="com.ovionmedia.wizbox.tvshows.TVHome"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape" >
+            </activity>
+           <activity android:name="com.ovionmedia.wizbox.tvshows.TVChannel"
+                     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                     android:screenOrientation="landscape" >
+           </activity>
+           <activity android:name="com.ovionmedia.wizbox.tvshows.TVPlayer"  
+                     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                     android:screenOrientation="landscape" >
+           </activity>
+           
+            <activity android:name="com.ovionmedia.wizbox.movies.MovieHome"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity> 
+            <activity android:name="com.ovionmedia.wizbox.movies.ActionMovies"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Drama"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Comedy"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Romance"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Religious"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Family"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+            <activity android:name="com.ovionmedia.wizbox.movies.Animation"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>  
+            <activity android:name="com.ovionmedia.wizbox.movies.Horror"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity> 
+            <activity android:name="com.ovionmedia.wizbox.movies.MoviePlayer"
+                      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                      android:screenOrientation="landscape">
+            </activity>
+        
+          <receiver
+            android:name="com.ovionmedia.wizbox.launcher.DemoDeviceAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <intent-filter>
+
+                <!-- This action is required -->
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <!-- This is required this receiver to become device admin component. -->
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+        </receiver>
+     
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filter_bars_external_margin">5dip</dimen>
+    <dimen name="filter_bars_button_margin">20dip</dimen>
+    <dimen name="filter_bars_external_margin_bottom">5dip</dimen>
+    <dimen name="clock_external_margin_bottom">10dip</dimen>
+    <dimen name="clock_bottom_margin_bottom">0dip</dimen>
+    <dimen name="connection_bottom_margin">5dip</dimen>
+    <dimen name="connection_right_margin">10dip</dimen>
+    <dimen name="top_bar_height">38dip</dimen>
+    <dimen name="source_icon_width">75dip</dimen>
+    <dimen name="app_icon_width">90dip</dimen>
+</resources>

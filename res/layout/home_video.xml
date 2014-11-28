@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:nextFocusDown="@+id/lib"
+    android:nextFocusLeft="@+id/prom_apps_gridview"
+    android:nextFocusRight="@+id/prom_apps_gridview"
+    android:nextFocusUp="@+id/search_editbox"
+  
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="12dp"
+  
+    android:background="@drawable/watch_on_vod_16x9_1" >
+
+    <VideoView
+        android:id="@+id/prom_video"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/prom_video"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+   
+
+   
+    
+    </RelativeLayout>
+
+
+ 
+ 

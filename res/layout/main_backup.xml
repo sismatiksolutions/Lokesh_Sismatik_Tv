@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_desktop_bg" >
+
+    <!-- TOP Shortcut Icons, Home, Settings, etc., -->
+
+    <include
+        android:id="@+id/home_shortcut_icons_layout_ref"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        layout="@layout/main_home_shortcut_icons_page" />
+
+    <!-- Search & Favorite BAR - Google Search, etc., -->
+
+    <include
+        android:id="@+id/top_fav_layout_ref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_shortcut_icons_layout_ref"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        layout="@layout/main_top_fav_search_page" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_fav_layout_ref" >
+
+        <fragment
+            android:id="@+id/promotionAppsAndVideoFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomButtonsFragment"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            class="com.ovionmedia.wizbox.launcher.LocalVideoAndImageFragment" >
+        </fragment>
+
+        <fragment
+            android:id="@+id/bottomButtonsFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            class="com.ovionmedia.wizbox.launcher.BottomButtonsFragment" >
+        </fragment>
+    </RelativeLayout>
+
+</RelativeLayout>

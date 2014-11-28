@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lang_settings_right_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt1e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language_input"
+        android:textSize="26sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:background="@color/custom_color"
+        android:clickable="false" >
+
+        <LinearLayout
+            android:id="@+id/pr5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt2e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/set_system_language"
+                android:textSize="26sp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/txt3e"
+                android:layout_width="fill_parent"
+                android:background="@drawable/layout_bg"
+                android:gravity="left"
+            	android:paddingTop="20dp"
+            	android:paddingBottom="20dp"
+            	android:nextFocusDown="@+id/btn_setup_wizard_welcome_next"
+                android:nextFocusUp="@+id/btn_setup_wizard_welcome_next"
+            	android:paddingLeft="20dp"
+            	android:paddingRight="5dp"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/set_the_language_to_be_used"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" /> 
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_grey"
+        android:clickable="false" >
+
+        <LinearLayout
+            android:id="@+id/pr6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt4e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/input_settings"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt5e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/you_can_find_the_settings_for_input_here_"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/cyan" />
+        </LinearLayout>
+    </RelativeLayout> -->
+
+</LinearLayout>

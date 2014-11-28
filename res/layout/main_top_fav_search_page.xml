@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_fav_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_search_fav_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_logo_topbar" />
+
+    <EditText
+        android:id="@+id/search_editbox"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/img_google_search_edit_bg"
+        android:hint="@string/search"
+        android:nextFocusDown="@+id/prom_apps_gridview"
+        android:nextFocusLeft="@+id/search_btn_shopping"
+        android:nextFocusRight="@+id/search_btn"
+        android:nextFocusUp="@+id/home"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/img_search_btn"
+        android:nextFocusDown="@+id/prom_apps_gridview"
+        android:nextFocusLeft="@+id/search_editbox"
+        android:nextFocusRight="@+id/search_btn_games"
+        android:nextFocusUp="@+id/home" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="0dp"
+        android:scrollbars="none"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/fav_scroll_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/search_btn_games"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_games_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn"
+                android:nextFocusRight="@+id/search_btn_movies"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/games"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_movies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_movies_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_games"
+                android:nextFocusRight="@+id/search_btn_music"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/movies"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_music_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_movies"
+                android:nextFocusRight="@+id/search_btn_apps"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/music"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_apps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_apps_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_music"
+                android:nextFocusRight="@+id/search_btn_news"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/android_app"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_news_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_apps"
+                android:nextFocusRight="@+id/search_btn_social"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/news"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_social"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_social_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_news"
+                android:nextFocusRight="@+id/search_btn_weather"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/social"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_weather_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_social"
+                android:nextFocusRight="@+id/search_btn_shopping"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/weather"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+
+            <Button
+                android:id="@+id/search_btn_shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_shopping_small"
+                android:nextFocusDown="@+id/prom_apps_gridview"
+                android:nextFocusLeft="@+id/search_btn_weather"
+                android:nextFocusRight="@+id/search_editbox"
+                android:nextFocusUp="@+id/home"
+                android:text="@string/shopping"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/fav_text_color" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

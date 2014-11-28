@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Wizbox_Launcher</string>
+    <string name="side_name">Sidebar</string>
+    <string name="channels_list_name">Channels</string>
+    <string name="full_name">FullActivity</string>
+    <string name="market_name">BeeiTV Market</string>
+    <string name="tutorial_name">BeeiTV Tutorial</string>
+    <string name="comm_port_default">Default communication port</string>
+    <string name="remote_control">Remote Control</string>
+    <string name="comm_ip_summary">Summary communication ip</string>
+    <string name="comm_port_summary">Summary communication port</string>
+    <string name="remote_control_check_summ">Checkbox</string>
+    <string name="comm_ip_title">Communication IP</string>
+    <string name="remote_checkbox">Remote checkbox</string>
+    <string name="mediaplayer_name">BeeiTV Launcher Media Player</string>
+    <string name="medialibrary_label_mediasource_unknown">(Unknown)</string>
+    <string name="medialibrary_label_history_root">Library</string>
+    <string name="medialibrary_label_mediasource_marketplace">Mediasource market</string>
+    <string name="mediaplayer_error_unsupported_media">Media format not supported by player.</string>
+    <string name="mediaplayer_ask_for_external_app">Media format not supported by player. Do you want to launch a system activity to play it?</string>
+    <string name="mediaplayer_ask_for_external_app_always">Yes, always.</string>
+    <string name="mediaplayer_ask_for_external_app_once">Yes, this time.</string>
+    <string name="mediaplayer_ask_for_external_app_no">No.</string>
+    <string name="device_media_player_error">Device media player error.</string>
+    <string name="medialibrary_error_getchildren_failure">Unable to load this media source element. Go back and try again.</string>
+    <string name="zapping_configuration">Click on an channel to modify or cancel it.</string>
+    <string name="channels_list">fast channels</string>
+    <string name="delete_channel_key_association">Are you sure you want to delete this association?</string>
+
+    <color name="nocolor">#00ffffff</color>
+    <color name="progress_color">#55ffffff</color>
+    <color name="color">#66ffffff</color>
+    <color name="gesture">#eeeeeeee</color>
+    <color name="gesture_tutorial">#fffecc0a</color>
+    <color name="temp_gesture_tutorial">#66fecc0a</color>
+    <color name="temp_gesture">#66eeeeee</color>
+    <color name="sidebar_color">#ff33ff</color>
+    <color name="controlbar_color">#663366</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#88000000</color>
+    <color name="overlay_text">#eeeeee</color>
+
+    <!-- From App orga -->
+    <string name="other_apps_in_market">Other apps</string>
+<!-- <string name="app_name">Apps Organizer</string> -->
+    <string name="choose_labels_header">Move to Category</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_hide">Hide</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_new">New</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_labels">Labels</string>
+    <string name="preparing_apps_list">Application List Modified</string>
+    <string name="total_apps">Total apps</string>
+    <string name="please_wait_loading">Updating system Please wait…</string>
+    <string name="rename">Rename</string>
+    <string name="change_icon">Change icon</string>
+    <string name="launch">Launch</string>
+    <string name="rename_label">Rename label</string>
+    <string name="label_name">Label name</string>
+    <string name="other_label">Apps</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="reload_apps">Reload</string>
+    <string name="about">About</string>
+    <string name="Apps_organizer_label">Apps label</string>
+    <string name="choose_labels_for_shortcut">Move to Category</string>
+    <string name="all_labels">All labels</string>
+    <string name="select_apps">Select apps</string>
+    <string name="loading_shortcut_grid">Loading…</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm">Do you really want to delete label %s?</string>
+    <string name="export_menu">Export</string>
+    <string name="import_menu">Import</string>
+    <string name="export_error">Export error</string>
+    <string name="import_error">Import error</string>
+    <string name="sdcard_error">Sdcart error</string>
+    <string name="directory_error">Directory error</string>
+    <string name="file_name">File name</string>
+    <string name="no_files_error">No files found in directory AppsOrganizer in your sd card</string>
+    <string name="Author">Author</string>
+    <string name="Any_suggestion_or_bug_to">Any suggestion or bug to</string>
+    <string name="Follow_me_on">Follow me on</string>
+    <string name="Help">Help</string>
+    <string name="How_to">How to use Apps Organizer</string>
+    <string name="Starred_apps">Starred apps</string>
+    <string name="how_to_message">You can create labels home shortcuts with a long click on your Android home</string>
+    <string name="how_to_message_2">An how to is available online (see about dialog for details)</string>
+    <string name="Preferences">Preferences</string>
+    <string name="Shortcut_folder">Shortcut folder</string>
+    <string name="show_close_button_in_folder">Show close button</string>
+    <string name="close_folder_after_launch">Close after launch</string>
+    <string name="starred_first">Starred first</string>
+<!-- <string name="Bug_report">Android TV</string> -->
+    <string name="Bug_report">Bug report</string>
+    <string name="Bug_report_1">Apps Organizer seems to have crashed</string>
+    <string name="Bug_report_11">Android TV</string>
+    <string name="Bug_report_2">If you want to help us to fix this bug please report it</string>
+    <string name="Bug_report_button">Send email</string>
+    <string name="Bug_report_3">Thank you!</string>
+    <string name="Load_from_sd">Load from sd card</string>
+    <string name="list_default_action">Single click action</string>
+    <string name="list_default_action_summary">Default action on single click on an app</string>
+    <string name="choose_action">Choose action</string>
+    <string name="Application_not_found">Application not found</string>
+    <string name="Application_not_found_message">You need AndExplorer for select a file, you can download it from market (it\'s free)</string>
+    <string name="Open_market">Open market</string>
+    <string name="select_jpg_bmp_title">File type error</string>
+    <string name="select_jpg_bmp">You must choose a png or jpg file</string>
+    <string name="Donate">Donate</string>
+    <string name="Download">Download</string>
+    <string name="Downloading">Downloading</string>
+    <string name="Starting_download">Starting download</string>
+    <string name="All_apps">All apps</string>
+    <string name="Apps_with_no_label">Apps with no label</string>
+    <string name="Download_labels">Download labels</string>
+    <string name="Download_labels_from_Cyrket">Download labels from Cyrket</string>
+    <string name="First_time_download_message_1">Since version 1.3 you can download Android Market labels from cyrket</string>
+    <string name="First_time_download_message_2">Do you want to download labels now?</string>
+    <string name="choose_app">Choose app</string>
+    <string name="Android_Image_Gallery">Android Image Gallery</string>
+    <string name="Change_log">Change log</string>
+    <string name="Change_log_text">1.5.19\n
+	Traditional Chinese translation\n
+1.5.18\n
+	Bug fixing\n
+1.5.16\n
+	Japanese translation\n
+1.5.15\n
+	Fixed missing apps issue\n
+1.5.14\n
+	Serbian translation\n
+1.5.13\n
+	Greek translation\n
+1.5.12\n
+	Fixed duplicate apps bug\n
+1.5.11\n
+	Bug fixing\n
+1.5.10\n
+	Portuguese translation\n
+1.5.9\n
+	Apps to sd bug fixing\n
+1.5.8\n
+	Bug fixing\n
+1.5.7\n
+	Fixed apps moved to sd bug\n
+	Norwegian translation\n
+1.5.6\n
+	New close button\n
+	Click outside a folder to close it\n
+1.5.5\n
+	Bug fixing\n
+1.5.4\n
+	Swedish translation\n
+1.5.3\n
+	Fast scroll on apps list\n
+1.5.2\n
+	Bug fixing\n
+1.5.1\n
+	Feedback on widget selection\n
+1.5\n
+	Android Widget\n
+1.4.10\n
+	Russian translation\n
+1.4.9\n
+	Add label to home command\n
+1.4.8\n
+	Spanish translation\n
+1.4.7\n
+	Korean translation\n
+1.4.6\n
+	MyBackup Integration Support\n
+1.4.5\n
+	Performance improvement (revert to version 1.4.3)\n
+1.4.4\n
+	Fixed reload when an app change icon after an update\n
+	Fixed navigation with buttons/trackball\n
+1.4.3\n
+	German translation\n
+	Performance improvement\n
+1.4.2\n
+	Other apps shortcut\n
+1.4.1\n
+	Fixed droid icons issue\n
+	New label menu item\n
+1.4.0.1\n
+	Fixed error launching some apps\n
+1.4\n
+	Icon pack support\n
+	Fixed shortcut text width\n
+	Danish translation\n
+1.3.4\n
+	Fixed choose label dialog bug\n
+1.3.3\n
+	Chinese translation\n
+	New choose label dialog\n
+1.3.2\n
+	Fixed droid resolution bug\n
+1.3.1\n
+	Android 2.0 support</string>
+    <string name="label_already_exists">Label already exists</string>
+    <string name="looking_for_icons">Looking for icons…</string>
+    <string name="loading_icons">Loading icons…</string>
+    <string name="error_while_launching_activity">Error while launching application</string>
+    <string name="New_label">New label</string>
+    <string name="Apps_list">Apps list</string>
+    <string name="label_default_internet">Internet</string>
+    <string name="label_default_android">Movies</string>
+    <string name="label_default_multimedia">Music</string>
+    <string name="label_default_allmovies">Allmovies</string>
+    <string name="label_default_adventure">Adventure</string>
+    <string name="label_default_comedy">Comedy</string>
+    <string name="label_default_crime">Crime</string>
+    <string name="label_default_documentary">Documentary</string>
+    <string name="label_default_drama">Drama</string>
+    <string name="label_default_family">Family</string>
+    <string name="label_default_history">History</string>
+    <string name="label_default_horror">Horror</string>
+    <string name="label_default_musical">Musical</string>
+    <string name="label_default_mystery">Mystery</string>
+    <string name="label_default_romance">Romance</string>
+    <string name="label_default_scifi">SciFi</string>
+    <string name="label_default_thriller">Thriller</string>
+    <string name="label_default_war">War</string>
+    <string name="label_default_western">Western</string>
+    <string name="label_default_actionmovies">ActionMovies</string>
+    <string name="label_default_allsocial">Allsocial</string>
+    <string name="label_default_messengersocial">Messengersocial</string>
+    <string name="label_default_mailsocial">Mailsocial</string>
+    <string name="label_default_videoCallsocial">VideoCallsocial</string>
+    <string name="label_default_networkingsocial">Networkingsocial</string>
+    <string name="label_default_allgames">Allgames</string>
+    <string name="label_default_arcadeactiongames">Arcadeactiongames</string>
+    <string name="label_default_sportsgames">Sportsgames</string>
+    <string name="label_default_allshopping">AllShopping</string>
+    <string name="label_default_booksShopping">BooksShopping</string>
+    <string name="label_default_mobileaccessoriesshopping">MobileAccessoriesShopping</string>
+    <string name="label_default_computersshopping">ComputersShopping</string>
+    <string name="label_default_camerasshopping">CamerasShopping</string>
+    <string name="label_default_gamingshopping">GamingShopping</string>
+    <string name="label_default_tvvideoaudioshopping">TVVideoAudioShopping</string>
+    <string name="label_default_homekitchenshopping">HomeKitchenShopping</string>
+    <string name="label_default_pensstationeryshopping">PensStationeryShopping</string>
+    <string name="label_default_bagsluggageshopping">BagsLuggageShopping</string>
+    <string name="label_default_watchesshopping">WatchesShopping</string>
+    <string name="label_default_beautyhealthcareshopping">BeautyHealthCareShopping</string>
+    <string name="label_default_babycareshopping">BabyCareShopping</string>
+    <string name="label_default_toysshopping">ToysShopping</string>
+    <string name="label_default_allapps">AllApps</string>
+    <string name="label_default_systemapps">SystemApps</string>
+    <string name="label_default_favoriteapps">FavoriteApps</string>
+    <string name="label_default_honeybee">Honeybee</string>
+    <string name="add_to_home">Add to home</string>
+    <string name="FolderOrganizer_title">FolderOrganizer</string>
+    <string name="FolderOrganizer_message">If you want to organize Apps, Bookmarks, Contacts and Shortcuts you can try FolderOrganizer.\nExported Apps Organizer data can be easily imported</string>
+    <string name="Deleted_label">Deleted label</string>
+    <string name="starred_warning">No starred apps in current label. Click on star in title bar to show all apps of the label</string>
+
+    <color name="fav_text_color">#929196</color>
+
+    <string name="home">HOME</string>
+    <string name="device">Device</string>
+    <string name="leftbar_lan_click">LeftBar_Lan_click</string>
+    <string name="lan">Lan</string>
+    <string name="internet">Internet</string>
+    <string name="movie">Movie</string>
+    <string name="library">Library</string>
+    <string name="_00_00">00:00</string>
+    <string name="wificonnection">WifiConnection</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="contact">Contact</string>
+    <string name="weatherwidget">WeatherWidget</string>
+    <string name="music">Music</string>
+    <string name="communication">Communication</string>
+    <string name="games">Games</string>
+    <string name="allapps">AllApps</string>
+    <string name="logo">Logo</string>
+    <string name="search">search</string>
+    <string name="favorite">Favorite</string>
+    <string name="voip">Voip</string>
+    <string name="_21c">21C</string>
+    <string name="movies">Movies</string>
+    <string name="mystore">MyFiles</string>
+    <string name="android_app">Android App</string>
+    <string name="news">News</string>
+    <string name="social">Social</string>
+    <string name="weather">Weather</string>
+    <string name="shopping">Shopping</string>
+    <string name="yes_vod">VOD</string>
+    <string name="appimg">AppImg</string>
+    <string name="name">Name</string>
+    <string name="page_indicator">Page Indicator</string>
+    <string name="adv_banner_image">Adv Banner Image</string>
+    <string name="ad_txt">AD txt</string>
+    <string name="promotion_video">Promotion Video</string>
+    <string name="clock_symbol">Clock Symbol</string>
+    <string name="partner">Partner</string>
+    <string name="name_">"Name : "</string>
+    <string name="price_">"Price : "</string>
+    <string name="genre_">"Genre : "</string>
+    <string name="desc_">"Desc : "</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="facebook_like">Facebook Like</string>
+    
+    
+    
+     <string name="language_input">Language &amp; Input</string>
+      <string name="network_settings">Network settings</string>
+       <string name="accounts_synchronization">Accounts &amp; Synchronization</string>
+        <string name="date_time">Date &amp; Time</string>
+         <string name="display">Display</string>
+         
+          <string name="set_system_language">System language</string>
+    <string name="set_the_language_to_be_used">Set the system language to be used </string>
+    
+     <string name="wlan">WLAN</string>
+    <string name="select_an_available_wlan_network_">Select an available WLAN network.</string>
+    <string name="lan_settings">LAN settings</string>
+    <string name="set_up_your_own_home_network_">Set up your own home network.</string>
+         
+         <string name="resolution">Display Parameters</string>
+    <string name="select_the_resolution_to_be_used_">Adjust the display position and parameters.</string>
+         
+         <string name="set_the_date_and_time">Set the date and time</string>
+    <string name="set_the_appropriate_date_time_and_time_zone_">Set the appropriate date, time and time zone.</string>
+         
+          <string name="set_up_accounts">Set up accounts</string>
+    <string name="set_up_existing_accounts_e_g_gmail_">Set up existing accounts (e.g. Gmail).</string>
+     
+     <string name="thank_you_for_choosing_a_ovion_product_">Thank you for choosing a WizBox product!</string>
+     <string name="welcome">Welcome</string>
+     <string name="click_">Click \'</string>
+      <string name="next">Next</string>
+        <string name="thank_you_for_choosing_our_product_">Thank you for choosing a WizBox product!</string>
+       <string name="_to_get_started_">\' to get started.</string>
+     <string name="please_take_a_moment_to">Please take a moment to set up your Internet-TV Box.</string>
+    
+     
+       <string name="enable_device_admin">Enable Device Admin</string>
+    <string name="lock_device">Lock Device</string>
+    <string name="reset_device">Reset Device</string>
+    <string name="device_admin_enabled">Device Admin Enabled</string>
+    <string name="device_admin_disabled">Device Admin Disabled</string>
+    
+     <string name="action_settings">Settings</string>
+     
+     
+      <string-array name="language">
+        <item >Hindi</item>
+        <item >English</item>
+        <item >Telugu</item>
+        <item >Tamil</item>
+        <item >Malyalam</item>
+        <item >Bengali</item>
+        <item >kannada</item>
+        <item >Marathi</item>
+        <item >Panjabi</item>
+        <item >Gujarati</item>
+        <item >Bhojpuri</item>
+         
+       </string-array>
+
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:background="@drawable/img_desktop_bg3">
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight=".20"
+        android:background="@color/app_bg_new"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+         >
+
+       
+
+        <LinearLayout
+            android:id="@+id/leftLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+             android:layout_marginBottom="20dp"
+            android:orientation="vertical" >
+            <LinearLayout 
+                   android:layout_width="fill_parent"
+                   android:layout_height="80dp"
+                   android:background="@drawable/black_back2"
+                   >
+             <TextView
+            android:id="@+id/heading"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text=""
+            android:layout_marginTop="10dp" 
+            android:paddingRight="20dp"
+            android:textSize="36sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+             
+             
+             />
+            </LinearLayout>
+
+            <ListView
+               android:id="@android:id/list"
+               android:layout_width="318dp"
+               android:layout_height="wrap_content" 
+               android:divider="@android:color/transparent"
+               android:dividerHeight="0dp"
+                >
+            </ListView>
+
+        </LinearLayout>
+        <View 
+             android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#62686f" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight=".80"
+             android:id="@+id/rightLayout1" 
+       
+            android:background="@color/transparent"
+           android:layout_marginRight="20dp"
+           android:layout_marginBottom="20dp"
+             >
+               <LinearLayout 
+                   android:layout_width="fill_parent"
+                   android:layout_height="80dp"
+                   android:background="@drawable/black_back2"
+                   >
+           <TextView 
+                 android:id="@+id/movie_name"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:text=""
+                 android:layout_marginTop="10dp" 
+                 android:layout_marginLeft="20dp"
+                 android:textSize="36sp"
+                 android:textColor="#ffffff"
+                 
+                 android:textStyle="bold"
+                  
+                  />
+                 
+           </LinearLayout>
+            <LinearLayout 
+                android:id="@+id/rtChild"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            
+            
+ 
+            
+           <LinearLayout 
+               android:id="@+id/youtubelayout"
+        android:layout_width="500dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     
+     
+        >
+         <fragment
+      android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+      android:id="@+id/youtube_fragment"
+      android:layout_width="fill_parent"
+      android:layout_height="240dp"
+       android:layout_gravity="center"/>
+         <LinearLayout 
+             android:layout_width="500dp"
+             android:layout_height="250dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/picture_preview_glow"
+             >
+         <ImageView 
+             android:id="@+id/movie_poster"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:scaleType="centerInside"
+             android:layout_gravity="center"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="40dp"
+             android:layout_marginRight="40dp"
+             android:layout_marginBottom="40dp"
+             />
+         </LinearLayout>
+    </LinearLayout>
+    
+    
+     <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_marginLeft="10dp"
+      
+        >
+        
+       
+        
+          <RatingBar
+              android:id="@+id/ratingBar1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <ScrollView 
+              android:id="@+id/scrollView"
+              android:layout_width="wrap_content"
+              android:layout_height="300dp">
+          
+               <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    
+        >
+          <TextView
+              android:id="@+id/movieType"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text="" />
+
+          <TextView
+              android:id="@+id/movieDuration"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text="" />
+
+          <TextView
+              android:id="@+id/releasedYear"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text="" />
+
+          
+           
+            <TextView
+              android:id="@+id/descriptionText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text="" />
+           
+            <TextView
+              android:id="@+id/castText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text="" />
+            <TextView
+              android:id="@+id/director"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:text=""  />
+             
+             </LinearLayout>
+            </ScrollView>
+            
+            <LinearLayout 
+    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/fullscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_simple"
+        android:text="FullScreen"
+         
+        android:textSize="40sp" />
+
+       
+
+     </LinearLayout>
+     </LinearLayout>
+            
+       </LinearLayout> 
+         </LinearLayout>
+        </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes"
+    >
+    <string name="ga_trackingId">UA-46881622-1</string>
+     <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="ga_debug">true</bool>
+     <string name="com.ovionmedia.wizbox.launcher.MainActivity"></string>
+<string name="com.ovionmedia.wizbox.launcher.SetupWizardWelcomeActivity">SetupWizardWelcomeActivity</string>
+<string name="com.ovionmedia.wizbox.launcher.Login">Login</string>
+<string name="com.ovionmedia.wizbox.movies.MovieHome">MovieHome</string>
+<string name="com.ovionmedia.wizbox.movies.ActionMovies">ActionMovies</string>
+<string name="com.ovionmedia.wizbox.movies.Drama">Drama</string>
+<string name="com.ovionmedia.wizbox.movies.Comedy">Comedy</string>
+<string name="com.ovionmedia.wizbox.movies.Romance">Romance</string>
+<string name="com.ovionmedia.wizbox.movies.Religious">Religious</string>
+<string name="com.ovionmedia.wizbox.movies.Family">Family</string>
+<string name="com.ovionmedia.wizbox.movies.Animation">Animation</string>
+<string name="com.ovionmedia.wizbox.movies.Horror">Horror</string>
+<string name="com.ovionmedia.wizbox.tvshows.TVChannel">TVChannel</string>
+<string name="com.ovionmedia.wizbox.tvshows.TVHome">TVHome</string>
+</resources>
